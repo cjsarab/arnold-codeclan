@@ -16,4 +16,24 @@ public class Customer {
     }
 
 
+    public String getName() {
+        return this.name;
+    }
+
+    public double getMoney() {
+        return this.money;
+    }
+
+    public ArrayList<Vehicle> getOwnedVehicles() {
+        return this.ownedVehicles;
+    }
+
+    public void buyVehicle(Vehicle vehicle) {
+        double price = vehicle.getPrice();
+        if (this.money >= price) {
+            this.money -= price;
+            ownedVehicles.add(vehicle);
+        }
+
+    }
 }

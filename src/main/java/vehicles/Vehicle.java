@@ -15,4 +15,7 @@ public abstract class Vehicle {
         this.colour = colour;
     }
 
+    public double getPrice() {
+        return this.price;
+    }
 }

@@ -13,4 +13,8 @@ public class Dealership {
         this.stock = stock;
         this.till = till;
     }
+
+    public double getTill() {
+        return this.till;
+    }
 }
