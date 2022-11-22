@@ -21,4 +21,16 @@ public class Dealership {
     public void addToTill(double price) {
         this.till += price;
     }
+
+    public void removeFromStock(Vehicle vehicle) {
+        this.stock.remove(vehicle);
+    }
+
+    public ArrayList<Vehicle> getStock() {
+        return this.stock;
+    }
+
+    public void addVehicle(Vehicle vehicle) {
+        this.stock.add(vehicle);
+    }
 }

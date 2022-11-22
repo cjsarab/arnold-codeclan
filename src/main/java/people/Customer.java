@@ -34,6 +34,7 @@ public class Customer {
         if (this.money >= price) {
             this.money -= price;
             dealership.addToTill(price);
+            dealership.removeFromStock(vehicle);
             ownedVehicles.add(vehicle);
         }
 

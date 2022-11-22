@@ -70,6 +70,14 @@ public class CustomerTest {
         assertEquals(104999d, dealership.getTill(), 0.0);
     }
 
+    @Test
+    public void dealershipRemovesVehicleWhenCustomerBuys() {
+        ArrayList<Vehicle> expectedStock = new ArrayList<Vehicle>();
+        dealership.addVehicle(vehicle);
+        customer.buyVehicle(dealership, vehicle);
+        assertEquals(expectedStock, dealership.getStock());
+    }
+
 
 
 

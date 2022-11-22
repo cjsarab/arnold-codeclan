@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30571178-341f-4a66-8b9f-b7984dc834de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/VehicleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DealershipTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/businesses/Dealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/businesses/Dealership.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/people/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicles/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vehicles/ElectricCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicles/ElectricCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vehicles/HybridCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicles/HybridCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicles/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,21 +52,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VehicleTest.fixAllDamage">
-    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomerTest.dealershipRemovesVehicleWhenCustomerBuys">
+    <configuration name="CustomerTest.dealershipRemovesVehicleWhenCustomerBuys" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arnold-codeclan" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="dealershipRemovesVehicleWhenCustomerBuys" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.dealershipGetsCustomersMoneyWhenBuyingVehicle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DealershipTest.dealershipCanAddVehicleToStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arnold-codeclan" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="dealershipGetsCustomersMoneyWhenBuyingVehicle" />
+      <option name="MAIN_CLASS_NAME" value="DealershipTest" />
+      <option name="METHOD_NAME" value="dealershipCanAddVehicleToStock" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerTest.dealershipRemovesVehicleWhenCustomerBuys" />
+        <item itemvalue="JUnit.DealershipTest.dealershipCanAddVehicleToStock" />
         <item itemvalue="JUnit.VehicleTest.fixAllDamage" />
         <item itemvalue="JUnit.VehicleTest.damageReducesPrice" />
         <item itemvalue="JUnit.VehicleTest" />
-        <item itemvalue="JUnit.CustomerTest" />
-        <item itemvalue="JUnit.CustomerTest.dealershipGetsCustomersMoneyWhenBuyingVehicle" />
       </list>
     </recent_temporary>
   </component>
