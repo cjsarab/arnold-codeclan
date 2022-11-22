@@ -28,7 +28,7 @@ public class CustomerTest {
         tyres = new Tyre("Michelin");
         ownedVehicles = new ArrayList<Vehicle>();
         customer = new Customer("Randolph", 5000, ownedVehicles);
-        vehicle = new Car(60, engine, tyres, 4999, "tangerine");
+        vehicle = new Car(60, engine, tyres, 4999, "tangerine", 0);
 
         stock = new ArrayList<Vehicle>();
         dealership = new Dealership(stock, 100000d);
@@ -54,20 +54,20 @@ public class CustomerTest {
     public void customerCanBuyVehicle() {
         ArrayList<Vehicle> expectedVehicles = new ArrayList<Vehicle>();
         expectedVehicles.add(vehicle);
-        customer.buyVehicle(vehicle);
+        customer.buyVehicle(dealership, vehicle);
         assertEquals(expectedVehicles, customer.getOwnedVehicles());
     }
 
     @Test
     public void customerMoneyGoesDownWhenBuyingVehicle() {
-        customer.buyVehicle(vehicle);
+        customer.buyVehicle(dealership, vehicle);
         assertEquals(1, customer.getMoney(), 0.0);
     }
 
     @Test
     public void dealershipGetsCustomersMoneyWhenBuyingVehicle() {
-        customer.buyVehicle(vehicle);
-        assertEquals(104999d, dealership.getTill());
+        customer.buyVehicle(dealership, vehicle);
+        assertEquals(104999d, dealership.getTill(), 0.0);
     }
 
 

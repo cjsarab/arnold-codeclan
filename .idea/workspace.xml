@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30571178-341f-4a66-8b9f-b7984dc834de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/VehicleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/businesses/Dealership.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/businesses/Dealership.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/people/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicles/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicles/ElectricCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicles/ElectricCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicles/HybridCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicles/HybridCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicles/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerTest.customerMoneyGoesDownWhenBuyingVehicle">
+  <component name="RunManager" selected="JUnit.VehicleTest.fixAllDamage">
     <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arnold-codeclan" />
       <option name="PACKAGE_NAME" value="" />
@@ -61,41 +66,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.customerCanBuyVehicle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.dealershipGetsCustomersMoneyWhenBuyingVehicle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arnold-codeclan" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="customerCanBuyVehicle" />
+      <option name="METHOD_NAME" value="dealershipGetsCustomersMoneyWhenBuyingVehicle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.customerHasMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arnold-codeclan" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="customerHasMoney" />
+      <option name="MAIN_CLASS_NAME" value="VehicleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleTest.damageReducesPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="arnold-codeclan" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VehicleTest" />
+      <option name="METHOD_NAME" value="damageReducesPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.customerHasVehicleCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTest.fixAllDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="arnold-codeclan" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="customerHasVehicleCollection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerTest.customerMoneyGoesDownWhenBuyingVehicle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="arnold-codeclan" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="customerMoneyGoesDownWhenBuyingVehicle" />
+      <option name="MAIN_CLASS_NAME" value="VehicleTest" />
+      <option name="METHOD_NAME" value="fixAllDamage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CustomerTest.customerMoneyGoesDownWhenBuyingVehicle" />
-        <item itemvalue="JUnit.CustomerTest.customerCanBuyVehicle" />
-        <item itemvalue="JUnit.CustomerTest.customerHasVehicleCollection" />
-        <item itemvalue="JUnit.CustomerTest.customerHasMoney" />
+        <item itemvalue="JUnit.VehicleTest.fixAllDamage" />
+        <item itemvalue="JUnit.VehicleTest.damageReducesPrice" />
+        <item itemvalue="JUnit.VehicleTest" />
         <item itemvalue="JUnit.CustomerTest" />
+        <item itemvalue="JUnit.CustomerTest.dealershipGetsCustomersMoneyWhenBuyingVehicle" />
       </list>
     </recent_temporary>
   </component>

@@ -17,4 +17,8 @@ public class Dealership {
     public double getTill() {
         return this.till;
     }
+
+    public void addToTill(double price) {
+        this.till += price;
+    }
 }

@@ -1,5 +1,6 @@
 package people;
 
+import businesses.Dealership;
 import vehicles.Vehicle;
 
 import java.util.ArrayList;
@@ -28,10 +29,11 @@ public class Customer {
         return this.ownedVehicles;
     }
 
-    public void buyVehicle(Vehicle vehicle) {
+    public void buyVehicle(Dealership dealership, Vehicle vehicle) {
         double price = vehicle.getPrice();
         if (this.money >= price) {
             this.money -= price;
+            dealership.addToTill(price);
             ownedVehicles.add(vehicle);
         }
 
